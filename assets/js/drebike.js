@@ -243,6 +243,7 @@
 
   const ROTULO_DO_TIPO = { scooter: 'Scooter elétrica', 'e-bike': 'Bike elétrica', triciclo: 'Triciclo elétrico' };
   const FOTOS_DE_AMBIENTE = new Set(['tank/01', 'wx-06/01']);
+  const FOTOS_DE_DETALHE = new Set(['wx15/05', 'wx-06/05', 'wx-06/06', 'wx-06/07', 'wx-06/08', 'wx-06/09', 'wx-06/10', 'wx-06/11']);
   const TAMANHOS_DO_CARD = '(min-width: 64em) 380px, (min-width: 40em) 45vw, 92vw';
   const TAMANHOS_DA_GALERIA = '(min-width: 64em) 60vw, 100vw';
 
@@ -330,6 +331,12 @@
       const comprar = card.querySelector('.es-catalogo-card__comprar');
       const detalhes = card.querySelector('.es-catalogo-card__detalhes');
       if (comprar && detalhes && detalhes.compareDocumentPosition(comprar) & 4) detalhes.before(comprar);
+      const abrir = card.querySelector('[data-es-abrir]');
+      const foto = card.querySelector('.es-catalogo-card__foto');
+      if (abrir && foto && !foto.classList.contains('de-card__foto--abre')) {
+        foto.classList.add('de-card__foto--abre');
+        foto.addEventListener('click', () => abrir.click());
+      }
     });
   }
 
@@ -404,6 +411,7 @@
         mini.setAttribute('aria-label', `Ver a cor ${nome}`);
         const img = elemento('img');
         img.src = foto.getAttribute('src');
+        if (foto.classList.contains('de-detalhe')) img.classList.add('de-detalhe');
         img.alt = '';
         img.loading = 'lazy';
         img.decoding = 'async';
@@ -459,6 +467,7 @@
         mini.setAttribute('aria-label', `Foto ${j + 1}`);
         const img = elemento('img');
         img.src = foto.getAttribute('src');
+        if (foto.classList.contains('de-detalhe')) img.classList.add('de-detalhe');
         img.alt = '';
         img.loading = 'lazy';
         img.decoding = 'async';
@@ -598,7 +607,9 @@
         conteudo.insertBefore(lado, galerias);
         lado.appendChild(galerias);
         todos(galerias, '.es-catalogo-galeria__foto').forEach((img) => {
-          if (FOTOS_DE_AMBIENTE.has(idDaFoto(img.getAttribute('src')))) img.classList.add('de-ambiente');
+          const foto = idDaFoto(img.getAttribute('src'));
+          if (FOTOS_DE_AMBIENTE.has(foto)) img.classList.add('de-ambiente');
+          if (FOTOS_DE_DETALHE.has(foto)) img.classList.add('de-detalhe');
         });
       }
 

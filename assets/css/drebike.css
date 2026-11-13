@@ -1049,6 +1049,10 @@ h3 {
   clip-path: polygon(0 0, calc(100% - var(--de-canto)) 0, 100% var(--de-canto), 100% 100%, 0 100%);
 }
 
+.es-catalogo-card__foto.de-card__foto--abre {
+  cursor: pointer;
+}
+
 .es-catalogo-card:hover .es-catalogo-card__foto {
   transform: scale(1.03) translateY(-2px);
 }
@@ -2196,10 +2200,19 @@ h3 {
   cursor: zoom-in;
 }
 
-.de-modal .es-catalogo-galeria__foto.de-ambiente {
+.de-modal .es-catalogo-galeria__foto.de-ambiente,
+.de-modal .es-catalogo-galeria__foto.de-detalhe {
   padding: 0;
   object-fit: cover;
   mix-blend-mode: normal;
+}
+
+.de-modal .es-catalogo-galeria__foto.de-detalhe {
+  object-position: 50% 45%;
+}
+
+.de-modal__mini img.de-detalhe {
+  object-fit: cover;
 }
 
 .de-modal__contador {
@@ -2280,7 +2293,12 @@ h3 {
   overflow-x: auto;
   border-top: var(--es-borda-largura) solid var(--de-nevoa);
   background: var(--de-branco);
-  scrollbar-width: thin;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+
+.de-modal__miniaturas::-webkit-scrollbar {
+  display: none;
 }
 
 .de-modal__mini {
@@ -2698,17 +2716,22 @@ h3 {
   }
 
   .de-modal .es-catalogo-modal__conteudo {
-    display: block;
-    overflow-y: auto;
-    overscroll-behavior: contain;
+    display: grid;
+    grid-template-rows: auto minmax(0, 1fr);
+    overflow: hidden;
   }
 
   .de-modal__galeria {
-    height: min(40vh, 21rem);
+    height: min(38vh, 20rem);
   }
 
   .de-modal__painel {
-    grid-template-rows: auto auto auto;
+    display: block;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--de-linha-vidro-forte) transparent;
   }
 
   .de-modal__corpo {
