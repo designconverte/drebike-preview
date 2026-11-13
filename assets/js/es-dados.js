@@ -7,9 +7,29 @@ window.ES_DADOS = {
             "amostra": "#1c1c1c",
             "fotos": [
               {
-                "altura": 482,
-                "arquivo": "assets/img/fabricante/wx15/01.jpg",
-                "largura": 605
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx15/02.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1200,
+                "arquivo": "assets/img/fabricante/wx15/03.jpg",
+                "largura": 1200
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx15/04.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx15/05.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1200,
+                "arquivo": "assets/img/fabricante/wx15/06.jpg",
+                "largura": 1200
               }
             ],
             "nome": "Preta"
@@ -40,9 +60,29 @@ window.ES_DADOS = {
         },
         "fotos": [
           {
-            "altura": 482,
-            "arquivo": "assets/img/fabricante/wx15/01.jpg",
-            "largura": 605
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx15/02.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1200,
+            "arquivo": "assets/img/fabricante/wx15/03.jpg",
+            "largura": 1200
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx15/04.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx15/05.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1200,
+            "arquivo": "assets/img/fabricante/wx15/06.jpg",
+            "largura": 1200
           }
         ],
         "id": "wx15",
@@ -124,6 +164,62 @@ window.ES_DADOS = {
       {
         "cores": [
           {
+            "amostra": "#f2f2f2",
+            "fotos": [
+              {
+                "altura": 639,
+                "arquivo": "assets/img/fabricante/wx-06/02.jpg",
+                "largura": 805
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/03.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/04.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/05.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/06.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/07.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/08.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/09.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/10.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/wx-06/11.jpg",
+                "largura": 1080
+              }
+            ],
+            "nome": "Branca"
+          },
+          {
             "amostra": "#1c1c1c",
             "fotos": [
               {
@@ -159,6 +255,56 @@ window.ES_DADOS = {
           }
         },
         "fotos": [
+          {
+            "altura": 639,
+            "arquivo": "assets/img/fabricante/wx-06/02.jpg",
+            "largura": 805
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/03.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/04.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/05.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/06.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/07.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/08.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/09.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/10.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/wx-06/11.jpg",
+            "largura": 1080
+          },
           {
             "altura": 1280,
             "arquivo": "assets/img/fabricante/wx-06/01.jpg",
@@ -361,10 +507,24 @@ window.ES_DADOS = {
           },
           {
             "amostra": "#4a4f55",
+            "fotos": [
+              {
+                "altura": 750,
+                "arquivo": "assets/img/fabricante/tank/02.jpg",
+                "largura": 1000
+              }
+            ],
             "nome": "Chumbo"
           },
           {
             "amostra": "#1c1c1c",
+            "fotos": [
+              {
+                "altura": 750,
+                "arquivo": "assets/img/fabricante/tank/03.jpg",
+                "largura": 1000
+              }
+            ],
             "nome": "Preto"
           }
         ],
@@ -396,6 +556,16 @@ window.ES_DADOS = {
             "altura": 4032,
             "arquivo": "assets/img/fabricante/tank/01.jpg",
             "largura": 3024
+          },
+          {
+            "altura": 750,
+            "arquivo": "assets/img/fabricante/tank/02.jpg",
+            "largura": 1000
+          },
+          {
+            "altura": 750,
+            "arquivo": "assets/img/fabricante/tank/03.jpg",
+            "largura": 1000
           }
         ],
         "id": "tank",

@@ -242,13 +242,13 @@
   }
 
   const ROTULO_DO_TIPO = { scooter: 'Scooter elétrica', 'e-bike': 'Bike elétrica', triciclo: 'Triciclo elétrico' };
-  const FOTOS_DE_AMBIENTE = new Set(['tank', 'wx-06']);
+  const FOTOS_DE_AMBIENTE = new Set(['tank/01', 'wx-06/01']);
   const TAMANHOS_DO_CARD = '(min-width: 64em) 380px, (min-width: 40em) 45vw, 92vw';
   const TAMANHOS_DA_GALERIA = '(min-width: 64em) 60vw, 100vw';
 
   function idDaFoto(src) {
-    const m = String(src || '').match(/assets\/img\/(?:fabricante|vitrine)\/([^/]+)\//);
-    return m ? m[1] : null;
+    const m = String(src || '').match(/assets\/img\/(?:fabricante|vitrine)\/([^/]+)\/(\d+)/);
+    return m ? `${m[1]}/${m[2]}` : null;
   }
 
   function versaoLeve(img, tamanhos) {
