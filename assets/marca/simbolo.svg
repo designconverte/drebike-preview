@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="324 6 158 132"><defs>
+    
+    <linearGradient id="Gradiente_sem_nome_29" data-name="Gradiente sem nome 29" x1="383.02" y1="34.29" x2="405.24" y2="189.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#02f838"/>
+      <stop offset="1" stop-color="#02d16d"/>
+    </linearGradient>
+    <linearGradient id="Gradiente_sem_nome_24" data-name="Gradiente sem nome 24" x1="405.41" y1="31.09" x2="427.64" y2="186.64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#02f838"/>
+      <stop offset="1" stop-color="#02f838"/>
+    </linearGradient>
+  </defs><g><path fill="url(#Gradiente_sem_nome_29)" d="M457.86,105.79l-9.58,28.69-20.97.27-71.14-.02c-9.99,0-20.01-4.07-25.49-12.15-4.59-6.77-3.53-14.55-1.85-22.02,5.56-24.67,26.86-41.94,52.42-41.51l72.15-.07-9.17,27.88-78.38.04-2.55,9.96c-.89,3.48,1.37,8.8,6.55,8.81l88.01.12Z"/><path fill="url(#Gradiente_sem_nome_24)" d="M477.26,11.4l-9.32,29.8-85.03.1c-19.33,1.61-33.91,14.35-46.51,29.3l11.26-35.89c4.52-14.42,19.81-23.23,34.55-23.24l95.05-.07Z"/></g></svg>
