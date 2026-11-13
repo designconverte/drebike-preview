@@ -491,100 +491,6 @@ window.ES_DADOS = {
           "a_vista": 900000
         },
         "tipo": "scooter"
-      },
-      {
-        "cores": [
-          {
-            "amostra": "#4b5b3a",
-            "fotos": [
-              {
-                "altura": 4032,
-                "arquivo": "assets/img/fabricante/tank/01.jpg",
-                "largura": 3024
-              }
-            ],
-            "nome": "Militar"
-          },
-          {
-            "amostra": "#4a4f55",
-            "fotos": [
-              {
-                "altura": 750,
-                "arquivo": "assets/img/fabricante/tank/02.jpg",
-                "largura": 1000
-              }
-            ],
-            "nome": "Chumbo"
-          },
-          {
-            "amostra": "#1c1c1c",
-            "fotos": [
-              {
-                "altura": 750,
-                "arquivo": "assets/img/fabricante/tank/03.jpg",
-                "largura": 1000
-              }
-            ],
-            "nome": "Preto"
-          }
-        ],
-        "destaque": false,
-        "especificacoes": {
-          "autonomia": {
-            "unidade": "km",
-            "valor": 40
-          },
-          "carga_maxima": {
-            "unidade": "kg",
-            "valor": 200
-          },
-          "peso": {
-            "unidade": "kg",
-            "valor": 92
-          },
-          "potencia": {
-            "unidade": "W",
-            "valor": 1000
-          },
-          "velocidade": {
-            "unidade": "km/h",
-            "valor": 32
-          }
-        },
-        "fotos": [
-          {
-            "altura": 4032,
-            "arquivo": "assets/img/fabricante/tank/01.jpg",
-            "largura": 3024
-          },
-          {
-            "altura": 750,
-            "arquivo": "assets/img/fabricante/tank/02.jpg",
-            "largura": 1000
-          },
-          {
-            "altura": 750,
-            "arquivo": "assets/img/fabricante/tank/03.jpg",
-            "largura": 1000
-          }
-        ],
-        "id": "tank",
-        "lista_tecnica": [
-          "Bateria: Lítio",
-          "Tempo de recarga: 6 a 7 horas",
-          "Painel em LED",
-          "Buzina",
-          "Alarme",
-          "Bateria removível",
-          "Carregador bivolt",
-          "Setas",
-          "Freio a disco"
-        ],
-        "nome": "Tank",
-        "preco": {
-          "a_vista": 1070000
-        },
-        "tipo": "scooter"
       }
     ]
   },
@@ -610,10 +516,6 @@ window.ES_DADOS = {
       {
         "id": "x13",
         "nome": "X13"
-      },
-      {
-        "id": "tank",
-        "nome": "Tank"
       }
     ],
     "whatsapp": {
