@@ -598,6 +598,9 @@ window.ES_DADOS = {
           "Descanso lateral"
         ],
         "nome": "E-TREK",
+        "preco": {
+          "a_vista": 750000
+        },
         "tipo": "scooter"
       }
     ]
