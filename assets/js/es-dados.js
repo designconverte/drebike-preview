@@ -491,6 +491,72 @@ window.ES_DADOS = {
           "a_vista": 900000
         },
         "tipo": "scooter"
+      },
+      {
+        "cores": [
+          {
+            "amostra": "#1c1c1c",
+            "fotos": [
+              {
+                "altura": 1600,
+                "arquivo": "assets/img/fabricante/e-trek/01.jpg",
+                "largura": 1200
+              },
+              {
+                "altura": 1600,
+                "arquivo": "assets/img/fabricante/e-trek/02.jpg",
+                "largura": 1200
+              },
+              {
+                "altura": 1600,
+                "arquivo": "assets/img/fabricante/e-trek/03.jpg",
+                "largura": 1200
+              }
+            ],
+            "nome": "Preta"
+          }
+        ],
+        "destaque": false,
+        "especificacoes": {
+          "potencia": {
+            "unidade": "W",
+            "valor": 1000
+          },
+          "velocidade": {
+            "unidade": "km/h",
+            "valor": 32
+          }
+        },
+        "fotos": [
+          {
+            "altura": 1600,
+            "arquivo": "assets/img/fabricante/e-trek/01.jpg",
+            "largura": 1200
+          },
+          {
+            "altura": 1600,
+            "arquivo": "assets/img/fabricante/e-trek/02.jpg",
+            "largura": 1200
+          },
+          {
+            "altura": 1600,
+            "arquivo": "assets/img/fabricante/e-trek/03.jpg",
+            "largura": 1200
+          }
+        ],
+        "id": "e-trek",
+        "lista_tecnica": [
+          "Lugares: 2",
+          "Bateria de chumbo: 48 V 22 Ah, 30 a 40 km de autonomia",
+          "Bateria de lítio: 48 V 24 Ah, 40 a 50 km de autonomia",
+          "Freio: a disco e a tambor",
+          "Garantia: 6 meses",
+          "Alarme antifurto",
+          "Cartão NFC",
+          "Suporte para celular"
+        ],
+        "nome": "E-TREK",
+        "tipo": "scooter"
       }
     ]
   },
@@ -516,6 +582,10 @@ window.ES_DADOS = {
       {
         "id": "x13",
         "nome": "X13"
+      },
+      {
+        "id": "e-trek",
+        "nome": "E-TREK"
       }
     ],
     "whatsapp": {

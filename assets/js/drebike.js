@@ -242,7 +242,7 @@
   }
 
   const ROTULO_DO_TIPO = { scooter: 'Scooter elétrica', 'e-bike': 'Bike elétrica', triciclo: 'Triciclo elétrico' };
-  const FOTOS_DE_AMBIENTE = new Set(['tank/01', 'wx-06/01']);
+  const FOTOS_DE_AMBIENTE = new Set(['tank/01', 'wx-06/01', 'e-trek/01', 'e-trek/02', 'e-trek/03']);
   const FOTOS_DE_DETALHE = new Set(['wx15/05', 'wx-06/05', 'wx-06/06', 'wx-06/07', 'wx-06/08', 'wx-06/09', 'wx-06/10', 'wx-06/11']);
   const TAMANHOS_DO_CARD = '(min-width: 64em) 380px, (min-width: 40em) 45vw, 92vw';
   const TAMANHOS_DA_GALERIA = '(min-width: 64em) 60vw, 100vw';
