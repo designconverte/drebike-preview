@@ -498,19 +498,29 @@ window.ES_DADOS = {
             "amostra": "#1c1c1c",
             "fotos": [
               {
-                "altura": 1600,
+                "altura": 1080,
                 "arquivo": "assets/img/fabricante/e-trek/01.jpg",
-                "largura": 1200
+                "largura": 1080
               },
               {
-                "altura": 1600,
+                "altura": 1080,
                 "arquivo": "assets/img/fabricante/e-trek/02.jpg",
-                "largura": 1200
+                "largura": 1080
               },
               {
-                "altura": 1600,
+                "altura": 1080,
                 "arquivo": "assets/img/fabricante/e-trek/03.jpg",
-                "largura": 1200
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/e-trek/04.jpg",
+                "largura": 1080
+              },
+              {
+                "altura": 1080,
+                "arquivo": "assets/img/fabricante/e-trek/05.jpg",
+                "largura": 1080
               }
             ],
             "nome": "Preta"
@@ -529,19 +539,29 @@ window.ES_DADOS = {
         },
         "fotos": [
           {
-            "altura": 1600,
+            "altura": 1080,
             "arquivo": "assets/img/fabricante/e-trek/01.jpg",
-            "largura": 1200
+            "largura": 1080
           },
           {
-            "altura": 1600,
+            "altura": 1080,
             "arquivo": "assets/img/fabricante/e-trek/02.jpg",
-            "largura": 1200
+            "largura": 1080
           },
           {
-            "altura": 1600,
+            "altura": 1080,
             "arquivo": "assets/img/fabricante/e-trek/03.jpg",
-            "largura": 1200
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/e-trek/04.jpg",
+            "largura": 1080
+          },
+          {
+            "altura": 1080,
+            "arquivo": "assets/img/fabricante/e-trek/05.jpg",
+            "largura": 1080
           }
         ],
         "id": "e-trek",
