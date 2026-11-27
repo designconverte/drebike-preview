@@ -490,7 +490,8 @@
   }
 
   const ORDEM_DA_FICHA = [
-    'Motor', 'Bateria', 'Tempo de recarga', 'Carregador', 'Freios', 'Suspensão', 'Rodas', 'Pneus', 'Painel',
+    'Motor', 'Bateria', 'Bateria de chumbo', 'Bateria de lítio', 'Tempo de recarga', 'Carregador',
+    'Freios', 'Freio dianteiro', 'Freio traseiro', 'Suspensão', 'Rodas', 'Pneus', 'Painel',
     'Lugares', 'Carga máxima', 'Dimensões', 'Peso', 'Garantia', 'Fabricante',
   ];
   const LINHA_DA_FICHA = /^([^:]{2,40}):\s+(.+)$/;

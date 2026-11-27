@@ -528,6 +528,14 @@ window.ES_DADOS = {
         ],
         "destaque": false,
         "especificacoes": {
+          "carga_maxima": {
+            "unidade": "kg",
+            "valor": 120
+          },
+          "peso": {
+            "unidade": "kg",
+            "valor": 60
+          },
           "potencia": {
             "unidade": "W",
             "valor": 1000
@@ -569,11 +577,21 @@ window.ES_DADOS = {
           "Lugares: 2",
           "Bateria de chumbo: 48 V 22 Ah, 30 a 40 km de autonomia",
           "Bateria de lítio: 48 V 24 Ah, 40 a 50 km de autonomia",
-          "Freio: a disco e a tambor",
+          "Freio dianteiro: a disco hidráulico",
+          "Freio traseiro: a tambor",
+          "Suspensão: amortecedores na frente e atrás",
+          "Carregador: bivolt (110 V e 220 V)",
           "Garantia: 6 meses",
           "Alarme antifurto",
-          "Cartão NFC",
-          "Suporte para celular"
+          "Cartão NFC para ligar",
+          "Painel digital",
+          "Farol em LED",
+          "Buzina",
+          "Retrovisores",
+          "Suporte para celular com entrada USB",
+          "Cesta dianteira",
+          "Apoio para os pés",
+          "Descanso lateral"
         ],
         "nome": "E-TREK",
         "tipo": "scooter"
