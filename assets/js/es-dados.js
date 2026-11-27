@@ -130,13 +130,13 @@ window.ES_DADOS = {
             "unidade": "km",
             "valor": 40
           },
+          "bateria": {
+            "unidade": "Ah",
+            "valor": 20
+          },
           "carga_maxima": {
             "unidade": "kg",
             "valor": 140
-          },
-          "peso": {
-            "unidade": "kg",
-            "valor": 76
           },
           "potencia": {
             "unidade": "W",
@@ -156,13 +156,18 @@ window.ES_DADOS = {
         ],
         "id": "wx15-bau",
         "lista_tecnica": [
-          "Tempo de recarga: 6 a 7 horas",
+          "Tipo de bateria: lítio 48 V, removível",
+          "Tempo de recarga: 6 a 8 horas",
+          "Carregador: bivolt",
+          "Freios: a tambor na frente e atrás",
+          "Suspensão: amortecedores a mola na frente e atrás",
+          "Pneus: 3.00-10",
+          "Lugares: 2",
           "Painel em LED",
           "Buzina",
-          "Farol em LED",
           "Alarme",
-          "Carregador bivolt",
-          "Setas"
+          "Setas",
+          "Baú traseiro"
         ],
         "nome": "WX15 Baú",
         "preco": {
@@ -392,13 +397,13 @@ window.ES_DADOS = {
             "unidade": "km",
             "valor": 25
           },
+          "bateria": {
+            "unidade": "Ah",
+            "valor": 12
+          },
           "carga_maxima": {
             "unidade": "kg",
-            "valor": 100
-          },
-          "peso": {
-            "unidade": "kg",
-            "valor": 76
+            "valor": 120
           },
           "potencia": {
             "unidade": "W",
@@ -428,8 +433,12 @@ window.ES_DADOS = {
         ],
         "id": "ace",
         "lista_tecnica": [
-          "Bateria: Lítio",
-          "Tempo de recarga: 6 a 7 horas",
+          "Tipo de bateria: lítio LMFP 48 V, removível",
+          "Tempo de recarga: 6 a 8 horas",
+          "Freios: a tambor na frente e atrás",
+          "Suspensão: hidráulica na frente, molas atrás",
+          "Pneus: aro 10, sem câmara",
+          "Lugares: 2",
           "Painel em LED",
           "Buzina",
           "Alarme",
@@ -469,13 +478,9 @@ window.ES_DADOS = {
             "unidade": "km",
             "valor": 40
           },
-          "carga_maxima": {
-            "unidade": "kg",
-            "valor": 150
-          },
-          "peso": {
-            "unidade": "kg",
-            "valor": 80
+          "bateria": {
+            "unidade": "Ah",
+            "valor": 20
           },
           "potencia": {
             "unidade": "W",
@@ -495,13 +500,13 @@ window.ES_DADOS = {
         ],
         "id": "x13",
         "lista_tecnica": [
-          "Bateria: Lítio",
+          "Tipo de bateria: lítio 60 V, removível",
           "Tempo de recarga: 6 a 7 horas",
+          "Carregador: smart 5 A, bivolt",
           "Painel em LED",
-          "Buzina",
           "Farol em LED",
+          "Buzina",
           "Alarme",
-          "Carregador bivolt",
           "Setas"
         ],
         "nome": "X13",
@@ -553,10 +558,6 @@ window.ES_DADOS = {
           "carga_maxima": {
             "unidade": "kg",
             "valor": 120
-          },
-          "peso": {
-            "unidade": "kg",
-            "valor": 60
           },
           "potencia": {
             "unidade": "W",
