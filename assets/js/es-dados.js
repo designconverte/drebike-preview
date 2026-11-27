@@ -41,13 +41,17 @@ window.ES_DADOS = {
             "unidade": "km",
             "valor": 40
           },
+          "bateria": {
+            "unidade": "Ah",
+            "valor": 20
+          },
           "carga_maxima": {
             "unidade": "kg",
             "valor": 140
           },
           "peso": {
             "unidade": "kg",
-            "valor": 76
+            "valor": 49
           },
           "potencia": {
             "unidade": "W",
@@ -87,13 +91,18 @@ window.ES_DADOS = {
         ],
         "id": "wx15",
         "lista_tecnica": [
-          "Bateria: Lítio",
-          "Tempo de recarga: 6 a 7 horas",
+          "Tipo de bateria: lítio 48 V, removível",
+          "Tempo de recarga: 6 a 8 horas",
+          "Carregador: bivolt",
+          "Freios: a tambor na frente e atrás",
+          "Suspensão: amortecedores a mola na frente e atrás",
+          "Pneus: 3.00-10",
+          "Lugares: 2",
           "Painel em LED",
           "Buzina",
           "Alarme",
-          "Carregador bivolt",
-          "Setas"
+          "Setas",
+          "Cesta dianteira"
         ],
         "nome": "WX15",
         "preco": {
@@ -237,13 +246,17 @@ window.ES_DADOS = {
             "unidade": "km",
             "valor": 40
           },
+          "bateria": {
+            "unidade": "Ah",
+            "valor": 20
+          },
           "carga_maxima": {
             "unidade": "kg",
             "valor": 140
           },
           "peso": {
             "unidade": "kg",
-            "valor": 76
+            "valor": 50
           },
           "potencia": {
             "unidade": "W",
@@ -313,14 +326,19 @@ window.ES_DADOS = {
         ],
         "id": "wx-06",
         "lista_tecnica": [
-          "Bateria: Lítio",
-          "Tempo de recarga: 6 a 7 horas",
+          "Tipo de bateria: lítio 60 V, removível",
+          "Tempo de recarga: 6 a 8 horas",
+          "Carregador: bivolt",
+          "Freios: a tambor na frente e atrás",
+          "Suspensão: amortecedores na frente e atrás",
+          "Pneus: 2,75-14",
+          "Lugares: 2",
           "Painel em LED",
-          "Buzina",
           "Farol em LED",
+          "Buzina",
           "Alarme",
-          "Carregador bivolt",
-          "Setas"
+          "Setas",
+          "Cartão NFC"
         ],
         "nome": "WX 06",
         "preco": {
@@ -581,9 +599,11 @@ window.ES_DADOS = {
           "Lugares: 2",
           "Bateria de chumbo: 48 V 22 Ah, 30 a 40 km de autonomia",
           "Bateria de lítio: 48 V 24 Ah, 40 a 50 km de autonomia",
+          "Tempo de recarga: 6 a 8 horas",
+          "Pneus: aro 10, sem câmara",
           "Freio dianteiro: a disco hidráulico",
           "Freio traseiro: a tambor",
-          "Suspensão: amortecedores na frente e atrás",
+          "Suspensão: hidráulica na frente, molas atrás",
           "Carregador: bivolt (110 V e 220 V)",
           "Garantia: 6 meses",
           "Alarme antifurto",

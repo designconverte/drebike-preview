@@ -490,7 +490,7 @@
   }
 
   const ORDEM_DA_FICHA = [
-    'Motor', 'Bateria', 'Bateria de chumbo', 'Bateria de lítio', 'Tempo de recarga', 'Carregador',
+    'Motor', 'Bateria', 'Tipo de bateria', 'Bateria de chumbo', 'Bateria de lítio', 'Tempo de recarga', 'Carregador',
     'Freios', 'Freio dianteiro', 'Freio traseiro', 'Suspensão', 'Rodas', 'Pneus', 'Painel',
     'Lugares', 'Carga máxima', 'Dimensões', 'Peso', 'Garantia', 'Fabricante',
   ];
