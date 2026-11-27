@@ -528,6 +528,10 @@ window.ES_DADOS = {
         ],
         "destaque": false,
         "especificacoes": {
+          "autonomia": {
+            "unidade": "km",
+            "valor": 40
+          },
           "carga_maxima": {
             "unidade": "kg",
             "valor": 120
